@@ -1,4 +1,4 @@
-const Item = ({img,description, price, stock, title}) =>{
+const ItemDetail = ({img,categoria, price, stock, title}) =>{
     return(
        <div>
             <h2> {img} </h2>
@@ -11,4 +11,4 @@ const Item = ({img,description, price, stock, title}) =>{
     )
 }
 
-export default Item
+export default ItemDetail
