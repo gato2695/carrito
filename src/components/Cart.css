@@ -1,0 +1,23 @@
+.emptyCart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin-top: 10rem !important;
+}
+.center{
+    text-align: center;
+}
+.emptyCartText{
+    margin-bottom: 2rem;
+    
+}
+
+.tituloCarrito{
+    font-size: 1.5rem;
+    text-align: center;
+    color: #2C061F;
+}
+.imageCart{
+    height: 50px;
+}

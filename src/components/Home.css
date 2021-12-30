@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+*{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.heroImage{
+    background: url(https://cdn.pixabay.com/photo/2015/11/10/08/31/banner-1036482_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+    position: relative;
+    text-align: center;
+}
+.greeting{
+    margin: 0;
+    color: white;
+    font-family: 'Comforter', cursive;
+    letter-spacing: 5px;
+    font-weight: 100;
+    font-size: 4rem;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 5px 4px 2px  #2C061F;
+}

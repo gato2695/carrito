@@ -1,17 +1,22 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom'
+import { initializeApp } from "firebase/app";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyC-DiUOSin5Minwt-crQ2ATVkHEkpqF54I",
+    authDomain: "la-nota-react-coderhouse.firebaseapp.com",
+    projectId: "la-nota-react-coderhouse",
+    storageBucket: "la-nota-react-coderhouse.appspot.com",
+    messagingSenderId: "1028362110109",
+    appId: "1:1028362110109:web:8f9ca51bb8144fadd7c074"
+};
+
+initializeApp(firebaseConfig);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+     document.getElementById('root'));

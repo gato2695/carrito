@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&display=swap');
+
+.itemContainer{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.detailsContainer{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.itemName{
+    font-size: 2rem;
+    font-weight: 700;
+    padding: .5rem;
+    text-align: center;
+    font-family: 'Corinthia', cursive;
+    letter-spacing: 2px;
+}
+
+.itemCategory{
+    font-size: 1rem;
+    font-weight: 400;
+    padding: .5rem;
+    margin: auto;
+    font-style: italic;
+}
+
+.itemImage{
+    height: 200px;
+}
+
+.itemPrice{
+    font-size: 1.1rem;
+    padding: .5rem;
+    padding-top: auto;
+    padding-bottom: auto;
+    font-weight: 600;
+    border-radius: 10px;
+    background-color: rgba(225, 216, 159, .9);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.rowAlign{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+
+}

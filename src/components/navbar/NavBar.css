@@ -1,0 +1,20 @@
+.navbar{
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #2C061F;
+}
+
+.pageName{
+    flex-grow: 1; 
+    font-size: 2rem;
+    font-family: 'Comforter';
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: #D89216;
+}
+
+.MuiIconButton-colorInherit{
+    color:white !important
+}
